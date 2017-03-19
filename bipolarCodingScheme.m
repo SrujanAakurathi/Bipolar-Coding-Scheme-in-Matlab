@@ -1,5 +1,6 @@
+function [ output_args ] = bipolarCodingScheme( input_args )
 k=[1 0 1 1 0 1];
-l=zeros(1,length(x));
+l=zeros(1,length(k));
 m=5;
 n=1;
 for i=1:length(k);
@@ -16,3 +17,4 @@ end
 end
 end
 stairs(l)
+end
